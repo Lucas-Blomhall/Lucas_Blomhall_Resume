@@ -10,6 +10,10 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
+import { InlineWidget } from "react-calendly";
+import { PopupWidget } from "react-calendly";
+
+
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -33,7 +37,19 @@ function Hero() {
           alt="Color mode icon"
           onClick={toggleTheme}
         />
-      </div>      
+      </div>    
+      <PopupWidget
+        url="https://calendly.com/lucas-blomhall"
+        /*
+         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+         */
+        rootElement={document.getElementById("root")}
+        text="Click here to schedule!"
+        textColor="#ffffff"
+        color="#00a2ff"
+      />
+  
       <div className={styles.info}>
         <h1>
             Lucas 
@@ -42,9 +58,6 @@ function Hero() {
         </h1>
         <h2>Fullstack DevNet Cloud Technician</h2>
         <span>
-          <a href="https://calendly.com/lucas-blomhall/30min" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a href="https://github.com/Lucas-Blomhall" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
