@@ -12,11 +12,11 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="TypeScript" />
-        <SkillList src={checkMarkIcon} skill="Node" />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill=".NET C#" />
+        <SkillList src={checkMarkIcon} skill="Linux" />
+        <SkillList src={checkMarkIcon} skill="Ansible" />
+        <SkillList src={checkMarkIcon} skill="Netmiko" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -35,11 +35,11 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={checkMarkIcon} skill=".NET C#" />
-        <SkillList src={checkMarkIcon} skill="Linux" />
-        <SkillList src={checkMarkIcon} skill="Ansible" />
-        <SkillList src={checkMarkIcon} skill="Netmiko" />
+        <SkillList src={checkMarkIcon} skill="HTML" />
+        <SkillList src={checkMarkIcon} skill="CSS" />
+        <SkillList src={checkMarkIcon} skill="JavaScript" />
+        <SkillList src={checkMarkIcon} skill="TypeScript" />
+        <SkillList src={checkMarkIcon} skill="Node" />
       </div>
     </section>
   );

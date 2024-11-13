@@ -42,13 +42,13 @@ function Hero() {
         </h1>
         <h2>Fullstack DevNet Cloud Technician</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://calendly.com/lucas-blomhall/30min" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Lucas-Blomhall" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/lucas-blomh%C3%A4ll-737314228/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
