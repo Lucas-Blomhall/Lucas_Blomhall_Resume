@@ -33,7 +33,7 @@ function Hero() {
           alt="Color mode icon"
           onClick={toggleTheme}
         />
-      </div>
+      </div>      
       <div className={styles.info}>
         <h1>
             Lucas 
