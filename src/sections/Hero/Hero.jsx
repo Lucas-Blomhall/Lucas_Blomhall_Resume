@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Lucas Blomhäll"
         />
         <img
           className={styles.colorMode}
@@ -36,11 +36,11 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
-          <br />
-          Johnsen
+            Lucas 
+            <br />
+            Blomhäll
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Fullstack DevNet Cloud Technician</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -53,8 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+            Interested in React.js, Python, .NET C#, Linux and Cisco Network. Currently studying for the CompTIA Network+ certificate.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

@@ -33,6 +33,14 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
       </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill=".NET C#" />
+        <SkillList src={checkMarkIcon} skill="Linux" />
+        <SkillList src={checkMarkIcon} skill="Ansible" />
+        <SkillList src={checkMarkIcon} skill="Netmiko" />
+      </div>
     </section>
   );
 }
