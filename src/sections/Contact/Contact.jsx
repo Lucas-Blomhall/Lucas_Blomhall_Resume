@@ -28,14 +28,14 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-      <form action="">
+      <form ref={form} onSubmit={sendEmail}>
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name
           </label>
           <input
             type="text"
-            name="name"
+            name="user_name"
             id="name"
             placeholder="Name"
             required
@@ -47,7 +47,7 @@ function Contact() {
           </label>
           <input
             type="text"
-            name="email"
+            name="user_email"
             id="email"
             placeholder="Email"
             required
@@ -58,21 +58,12 @@ function Contact() {
             Message
           </label>
           <textarea
-            name="message"
+            name="message" 
             id="message"
             placeholder="Message"
             required></textarea>
         </div>
-        <input className="hover btn" type="submit" value="Submit" />
-      </form>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input className="hover btn" type="submit" value="Send" />
       </form>
     </section>
   );
