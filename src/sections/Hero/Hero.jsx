@@ -66,7 +66,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-            Interested in React.js, Python, .NET C#, Linux and Cisco Network. Currently studying for the CompTIA Network+ certificate.
+            Fluent in React.js, Python, .NET C#, Linux and Cisco Network. Currently studying for the CompTIA Network+ certificate.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

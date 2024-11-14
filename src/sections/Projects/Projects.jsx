@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/Cisco1921routericon.png';
-import freshBurger from '../../assets/The Full Stack DevNet Cloud Blog.png';
+import freshBurger from '../../assets/hemnet.png';
 import hipsster from '../../assets/CompTIA_Network_2Bce.png';
 import fitLift from '../../assets/gymnasiearbetearduinorobot.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -18,9 +18,9 @@ function Projects() {
         />
         <ProjectCard
           src={freshBurger}
-          link="https://www.linkedin.com/company/the-full-stack-devnet-cloud-blog/?viewAsMember=true"
-          h3="Blog on LinkedIn"
-          p="Sharing my journey"
+          link="https://github.com/Lucas-Blomhall/Flaskapphemnet"
+          h3="Flaskapp Hemnet"
+          p="With PostgreSQL"
         />
         <ProjectCard
           src={hipsster}
