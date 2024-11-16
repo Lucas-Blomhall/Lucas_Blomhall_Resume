@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/selfie-modified.png';
+import heroImg from '../../assets/LinkedIn profile picture-modified.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -56,7 +56,7 @@ function Hero() {
             <br />
             Blomhäll
         </h1>
-        <h2>Fullstack DevNet Cloud Technician</h2>
+        <h2>Full Stack DevNet Cloud Technician</h2>
         <span>
           <a href="https://github.com/Lucas-Blomhall" target="_blank">
             <img src={githubIcon} alt="Github icon" />
