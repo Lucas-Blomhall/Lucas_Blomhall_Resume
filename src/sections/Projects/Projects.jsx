@@ -14,7 +14,7 @@ function Projects() {
           src={viberr}
           link="https://www.linkedin.com/posts/lucas-blomhall_fullstackdevnetcloudtechnician-networkautomation-activity-7260634907687743488-JFjr?utm_source=share&utm_medium=member_desktop"
           h3="Cisco 1921 Router"
-          p="Cisco Router"
+          p="SIEM Engineer project"
         />
         <ProjectCard
           src={freshBurger}
@@ -26,13 +26,13 @@ function Projects() {
           src={hipsster}
           link="https://www.comptia.org/certifications/network"
           h3="CompTIA Network+"
-          p="In progress"
+          p="Cert in progress"
         />
         <ProjectCard
           src={fitLift}
           link="https://www.linkedin.com/posts/lucas-blomhall_im-happy-to-share-this-my-high-school-graduation-activity-7119276674608709633-4fGJ?utm_source=share&utm_medium=member_desktop"
           h3="Gymnasiearbete"
-          p="Arduino robot"
+          p="IoT: Arduino robot"
         />
       </div>
     </section>
