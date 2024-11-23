@@ -56,7 +56,7 @@ function Hero() {
             <br />
             Blomhäll
         </h1>
-        <h2>Full Stack DevNet Cloud Technician</h2>
+        <h2>Full Stack DevNetOps ingenjör/tekniker</h2>
         <span>
           <a href="https://github.com/Lucas-Blomhall" target="_blank">
             <img src={githubIcon} alt="Github icon" />
