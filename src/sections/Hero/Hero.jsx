@@ -4,6 +4,9 @@ import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
 import twitterDark from '../../assets/twitter-dark.svg';
+
+import youtubeLight from '../../assets/youtube-dark.svg';
+import youtubeDark from '../../assets/youtube-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -20,6 +23,7 @@ function Hero() {
 
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  const youtubeIcon = theme === 'light' ? youtubeLight : youtubeDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -63,6 +67,9 @@ function Hero() {
           </a>
           <a href="https://www.linkedin.com/in/lucas-blomh%C3%A4ll-737314228/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
+          </a>
+          <a href="https://www.youtube.com/@lucasblomhall1184" target="_blank">
+            <img src={youtubeIcon} alt="Youtube icon" />
           </a>
         </span>
         <p className={styles.description}>
