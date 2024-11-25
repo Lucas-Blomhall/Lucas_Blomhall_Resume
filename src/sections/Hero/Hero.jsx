@@ -54,7 +54,7 @@ function Hero() {
         <h1>
             Lucas 
             <br />
-            Blomhäll
+            
         </h1>
         <h2>Full Stack DevNetOps ingenjör/tekniker</h2>
         <span>
