@@ -71,7 +71,10 @@ function Hero() {
           <a href="https://www.youtube.com/@lucasblomhall1184" target="_blank">
             <img src={youtubeIcon} alt="Youtube icon" />
           </a>
-        </span>
+          <div className={styles.followButton}>
+          <a className={styles.libutton} href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=lucas-blomhall" target="_blank"><b>Follow on LinkedIn</b></a>
+          </div>          
+          </span>
         <p className={styles.description}>
             Fluent in React.js, Python, .NET C#, Linux and Cisco Network. Currently studying for the CompTIA Network+ certificate.
         </p>
